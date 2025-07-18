@@ -4,6 +4,25 @@
     padding: 0;
 }
 
+/* font */
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bitcount-font {
+    font-family: "Bitcount", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
@@ -17,6 +36,7 @@ nav {
 .nav-title h4 {
     font-size: 36px;
     font-weight: 800;
+    color: #E6533C;
 }
 
 .nav-item-ul {
@@ -36,5 +56,106 @@ nav {
 .nav-item ul li a {
     text-decoration: none;
     color: aliceblue;
+
+}
+
+.home {
+    padding: 8px 20px;
+    background-color: #E6533C;
+    border-radius: 39px;
+}
+
+/* banner */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-dis {
+    width: 600px;
+    gap: 80px;
+    align-content: center;
+
+    /* border: 1px solid; */
+}
+
+.banner-dis h1 {
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 28px;
+
+}
+
+.shape {
+    font-size: 78px;
+    font-weight: 350;
+
+}
+
+.paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    margin-bottom: 28px;
+
+}
+
+.btn-primary {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    border: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.btn-white {
+    border-radius: 42px;
+    background-color: aqua;
+    padding: 16px 40px;
+    border: 1px solid wheat;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 14px;
+}
+
+.box-1 {
+    margin-top: -150px;
+    padding: 30px;
+
+}
+
+.box-2 {
+    margin-top: -500;
+}
+
+.banner-box h4 {
+    font-size: 24px;
+}
+
+.banner-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(70, 70, 70, 0.54);
+    width: 200px;
+}
+
+
+@media screen and (max-width: 557px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px;
+
+    }
 
 }
