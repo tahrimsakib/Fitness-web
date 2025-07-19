@@ -212,18 +212,50 @@ p {
 }
 
 /* Run an Extra Mile Easily */
-.run{
+.run {
     background-color: #222222;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    padding: 50px;
+
+
+}
+
+.run-text {
+    width: 499px;
+    height: 400px;
+    color: aliceblue;
+    justify-items: center;
+    align-content: center;
+}
+
+.run-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.run-text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.run-img img {
+    width: 100%;
     
+    border-radius: 50px;
 }
 
-.run-img{
-    width: 366px; ;
-    height: 312px;
-    padding: 30px;
-}
 
+/* Trainings and Exercises */
+
+.train-container-text{
+    wi
+}
 
 
 
