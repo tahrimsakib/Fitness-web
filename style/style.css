@@ -23,6 +23,12 @@
         "ELXP" 0;
 }
 
+.width {
+    width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
@@ -148,14 +154,133 @@ nav {
     width: 200px;
 }
 
+/* Change Your Habits */
+.habit-text-item {
+    justify-items: center;
+    align-items: center;
+}
 
+.habits {
+    margin-bottom: 54px;
+    width: 670px;
+    text-align: center;
+
+}
+
+.common-h1 {
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.common-p {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.habits-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+}
+
+.habits-item {
+    width: 230px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.habits-item img {
+    border-radius: 100px;
+}
+
+.habits-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.habits-item h4,
+p {
+    /* text-align: center;
+    justify-items: center;
+    align-items: center; */
+
+}
+
+/* Run an Extra Mile Easily */
+.run{
+    background-color: #222222;
+    display: flex;
+    
+}
+
+.run-img{
+    width: 366px; ;
+    height: 312px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* respostive for mobile */
 @media screen and (max-width: 557px) {
     nav {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         padding: 0px;
-
     }
 
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .habit-text-item {
+        justify-items: start;
+        align-items: center;
+    }
+
+    .habits-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+
+    }
 }
